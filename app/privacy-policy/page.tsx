@@ -2,74 +2,102 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Monolith",
-  description: "Privacy policy for the Monolith teleprompter app.",
+  title: "Privacy Policy",
+  description: "Privacy policy",
 };
 
 export default function PrivacyPolicy() {
   return (
     <div className="mx-auto w-full max-w-6xl px-6 py-16">
       <div className="border-b border-black pb-10">
-        <p className="text-xs uppercase tracking-[0.35em]">Privacy Policy</p>
         <h1 className="mt-6 text-4xl font-semibold tracking-tight md:text-5xl">
-          Your privacy, in black and white.
+          Privacy Policy for Teleprompter App
         </h1>
         <p className="mt-4 text-base leading-7">
-          Last updated: March 29, 2026
+          Teleprompter App respects your privacy.
         </p>
+        <p className="mt-2 text-base leading-7">Last updated: March 29, 2026</p>
       </div>
 
       <div className="mt-12 grid gap-10">
         <section>
           <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
-            Overview
-          </h2>
-          <p className="mt-4 max-w-3xl text-base leading-7">
-            Monolith is designed to keep your scripts private. We only collect
-            the minimum data needed to run the app and support your account.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
             Information We Collect
           </h2>
-          <ul className="mt-4 list-disc pl-6 text-base leading-7">
-            <li>Account details such as name and email.</li>
-            <li>Usage signals like app version and device type.</li>
-            <li>Scripts you store locally remain on your device by default.</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
-            How We Use Information
-          </h2>
-          <ul className="mt-4 list-disc pl-6 text-base leading-7">
-            <li>Provide access to the app and your saved preferences.</li>
-            <li>Maintain security, performance, and reliability.</li>
-            <li>Communicate product updates and support responses.</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
-            Data Retention
-          </h2>
           <p className="mt-4 max-w-3xl text-base leading-7">
-            We retain account data only as long as your account is active. You
-            can request deletion at any time, and we will remove associated data
-            within a reasonable period.
+            We do not collect, store, or share any personal information from
+            users.
           </p>
         </section>
 
         <section>
           <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
-            Your Choices
+            Local Data Storage
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-7">
-            You control your scripts and can export or delete them at any time.
-            You can also opt out of non-essential communications.
+            This app may store data locally on your device only in order to
+            provide app functionality. This data is not transmitted to us and is
+            not accessible by us.
+          </p>
+          <p className="mt-4 max-w-3xl text-base leading-7">
+            Examples of locally stored data may include:
+          </p>
+          <ul className="mt-4 list-disc pl-6 text-base leading-7">
+            <li>App preferences</li>
+            <li>Saved content created within the app</li>
+            <li>Settings used to improve your experience</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
+            Permissions
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-7">
+            The app may request access to camera, microphone (voice), and photos
+            to enable its features.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
+            Analytics and Tracking
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-7">
+            We do not use analytics, tracking tools, or third-party advertising
+            SDKs to collect user data.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
+            Third-Party Services
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-7">
+            Teleprompter App does not use third-party services that collect
+            personal data from users. If you use anything like Firebase, Sentry,
+            RevenueCat, AdMob, Supabase, Clerk, Mixpanel, etc., this section
+            must change.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
+            Children’s Privacy
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-7">
+            Teleprompter App does not knowingly collect personal information
+            from children.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-sm font-semibold uppercase tracking-[0.25em]">
+            Changes to This Privacy Policy
+          </h2>
+          <p className="mt-4 max-w-3xl text-base leading-7">
+            We may update this Privacy Policy from time to time. Any changes
+            will be posted on this page.
           </p>
         </section>
 
@@ -78,8 +106,16 @@ export default function PrivacyPolicy() {
             Contact
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-7">
-            Questions about privacy? Reach us through the support channel inside
-            the app.
+            If you have any questions about this Privacy Policy, you can contact
+            us at:
+          </p>
+          <p className="mt-4 text-base leading-7">
+            <a
+              href="mailto:janghan0412@gmail.com"
+              className="underline decoration-black underline-offset-4"
+            >
+              janghan0412@gmail.com
+            </a>
           </p>
         </section>
       </div>

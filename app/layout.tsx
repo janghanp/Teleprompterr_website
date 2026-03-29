@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Monolith Teleprompter",
+  title: "Teleprompterr",
   description: "A black-and-white teleprompter app built for focus.",
 };
 
@@ -34,8 +34,8 @@ export default function RootLayout({
           <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-4">
             <Link href="/" aria-label="Go to home">
               <Image
-                src="/brand_image.png"
-                alt="Monolith app icon"
+                src="/new_app_icon.png"
+                alt="App icon"
                 width={36}
                 height={36}
                 priority
@@ -51,11 +51,11 @@ export default function RootLayout({
         </header>
         <main className="flex-1">{children}</main>
         <footer className="border-t border-black">
-          <div className="mx-auto flex w-full max-w-6xl flex-col items-start gap-3 px-6 py-6 text-xs uppercase tracking-[0.2em] md:flex-row md:items-center md:justify-between">
-            <span>© 2026 Monolith</span>
+          <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-3 px-6 py-6 text-xs uppercase tracking-[0.2em] md:flex-row md:justify-center">
             <div className="flex items-center gap-6">
-              <Link href="/privacy-policy">Privacy Policy</Link>
               <Link href="/terms-of-service">Terms of Service</Link>
+              <Link href="/privacy-policy">Privacy Policy</Link>
+              <a href="mailto:janghan0412@gmail.com">Contact</a>
             </div>
           </div>
         </footer>
