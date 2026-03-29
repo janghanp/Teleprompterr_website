@@ -51,11 +51,14 @@ export default function RootLayout({
         </header>
         <main className="flex-1">{children}</main>
         <footer className="border-t border-black">
-          <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-3 px-6 py-6 text-xs uppercase tracking-[0.2em] md:flex-row md:justify-center">
+          <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-3 px-6 py-6 text-xs uppercase tracking-[0.2em]">
             <div className="flex items-center gap-6">
               <Link href="/terms-of-service">Terms of Service</Link>
               <Link href="/privacy-policy">Privacy Policy</Link>
               <a href="mailto:janghan0412@gmail.com">Contact</a>
+            </div>
+            <div className="text-center normal-case tracking-normal">
+              © 2026 Janghan Park. All rights reserved.
             </div>
           </div>
         </footer>
