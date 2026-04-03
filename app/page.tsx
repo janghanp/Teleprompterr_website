@@ -14,7 +14,7 @@ export default function Home() {
           </p>
           <div className="mt-10 flex flex-col gap-4 sm:flex-row">
             <Link
-              href="/#download"
+              href="https://apps.apple.com/app/teleprompterr/id6760951831"
               className="bg-black px-7 py-3 text-center text-xs font-semibold uppercase tracking-[0.2em] text-white"
             >
               Download App

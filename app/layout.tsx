@@ -42,7 +42,7 @@ export default function RootLayout({
               />
             </Link>
             <Link
-              href="/#download"
+              href="https://apps.apple.com/app/teleprompterr/id6760951831"
               className="rounded-full border border-white px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] transition hover:bg-white hover:text-black"
             >
               Download App
