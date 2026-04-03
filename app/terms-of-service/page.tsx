@@ -22,7 +22,7 @@ export default function TermsOfService() {
             Acceptance
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-7">
-            By using Teleprompter App, you agree to these terms. If you do not
+            By using Teleprompterr App, you agree to these terms. If you do not
             agree, do not use the app.
           </p>
         </section>
@@ -32,7 +32,7 @@ export default function TermsOfService() {
             App Use
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-7">
-            Teleprompter App is provided for personal and professional use to
+            Teleprompterr App is provided for personal and professional use to
             create and display scripts. You are responsible for how you use the
             app and the content you create.
           </p>
@@ -74,7 +74,7 @@ export default function TermsOfService() {
             Third-Party Services
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-7">
-            Teleprompter App does not use third-party services that collect
+            Teleprompterr App does not use third-party services that collect
             personal data from users.
           </p>
         </section>

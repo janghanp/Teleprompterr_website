@@ -11,10 +11,10 @@ export default function PrivacyPolicy() {
     <div className="mx-auto w-full max-w-6xl px-6 py-16">
       <div className="border-b border-black pb-10">
         <h1 className="mt-6 text-4xl font-semibold tracking-tight md:text-5xl">
-          Privacy Policy for Teleprompter App
+          Privacy Policy for Teleprompterr App
         </h1>
         <p className="mt-4 text-base leading-7">
-          Teleprompter App respects your privacy.
+          Teleprompterr App respects your privacy.
         </p>
         <p className="mt-2 text-base leading-7">Last updated: March 29, 2026</p>
       </div>
@@ -74,7 +74,7 @@ export default function PrivacyPolicy() {
             Third-Party Services
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-7">
-            Teleprompter App does not use third-party services that collect
+            Teleprompterr App does not use third-party services that collect
             personal data from users. If you use anything like Firebase, Sentry,
             RevenueCat, AdMob, Supabase, Clerk, Mixpanel, etc., this section
             must change.
@@ -86,7 +86,7 @@ export default function PrivacyPolicy() {
             Children’s Privacy
           </h2>
           <p className="mt-4 max-w-3xl text-base leading-7">
-            Teleprompter App does not knowingly collect personal information
+            Teleprompterr App does not knowingly collect personal information
             from children.
           </p>
         </section>

@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col">
       <section className="border-b border-black">
         <div className="mx-auto w-full max-w-6xl px-6 py-20">
-          <p className="text-xs uppercase tracking-[0.35em]">Teleprompter</p>
+          <p className="text-xs uppercase tracking-[0.35em]">Teleprompterr</p>
           <h1 className="mt-6 max-w-3xl text-5xl font-semibold tracking-tight md:text-6xl">
             Built for rehearsals, recordings, and live delivery.
           </h1>
